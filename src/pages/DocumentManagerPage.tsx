@@ -1,0 +1,6 @@
+import { FileText, Download } from "lucide-react"
+import StatusBadge from "../components/StatusBadge"
+const docs=[{emp:"Mike Jones",type:"I-9",status:"verified"},{emp:"Mike Jones",type:"W-4",status:"verified"},{emp:"Sarah Smith",type:"I-9",status:"uploaded"},{emp:"Sarah Smith",type:"Driver License",status:"pending"},{emp:"David Brown",type:"Drug Screen",status:"flagged"},{emp:"Lisa Davis",type:"Medical Card",status:"pending"}]
+export default function DocumentManagerPage(){
+  return <div><div className="flex items-center justify-between mb-6"><h1 className="text-2xl font-bold text-gray-900">Documents</h1><button className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg text-sm hover:bg-gray-50"><Download className="h-4 w-4"/>Export All</button></div>  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">{docs.map((d,i)=><div key={i} className="bg-white rounded-xl p-4 shadow-sm border flex items-center justify-between"><div className="flex items-center gap-3"><FileText className="h-8 w-8 text-[#1E3A5F]"/><div><p className="text-sm font-medium">{d.type}</p><p className="text-xs text-gray-500">{d.emp}</p></div></div><StatusBadge status={d.status}/></div>)}</div></div>
+}

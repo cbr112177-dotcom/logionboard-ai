@@ -1,0 +1,7 @@
+<svg width="400" height="100" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(10, 10) scale(0.8)">
+    <path d="M50 8L82 20V45C82 65 50 82 50 82C50 82 18 65 18 45V20L50 8Z" fill="#1E3A5F"/>
+    <path d="M35 45L47 55L70 30" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="100" y="65" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#1E3A5F">LogiOnboard <tspan fill="#F59E0B">AI</tspan></text>
+</svg>

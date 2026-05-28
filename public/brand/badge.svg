@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="60" r="55" fill="#1E3A5F" stroke="#F59E0B" stroke-width="4"/>
+  <path id="badgeCurve" d="M30,60 a30,30 0 1,1 60,0 a30,30 0 1,1 -60,0" fill="transparent"/>
+  <text font-family="Inter, sans-serif" font-size="8" font-weight="bold" fill="white">
+    <textPath href="#badgeCurve" startOffset="50%" text-anchor="middle">BUILT FOR SMALL LOGISTICS • LOGIONBOARD AI •</textPath>
+  </text>
+  <path d="M45 55L55 65L75 45" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
