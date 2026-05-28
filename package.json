@@ -5,10 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "convex:dev": "convex dev",
-    "convex:deploy": "convex deploy"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
@@ -31,17 +29,13 @@
     "@radix-ui/react-tooltip": "^1.0.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "convex": "^1.13.0",
     "lucide-react": "^0.344.0",
-    "openai": "^4.40.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.49.3",
     "react-router-dom": "^6.22.0",
     "recharts": "^2.10.4",
-    "resend": "^3.4.0",
     "sonner": "^1.4.3",
-    "stripe": "^14.18.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.22.4"
